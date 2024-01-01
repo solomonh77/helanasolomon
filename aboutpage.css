@@ -1,0 +1,41 @@
+/* styling for link to carrd */
+#carrd {
+    background-color: #ECC2E8;
+}
+
+/* editing div with link to carrd */
+.column-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/* editing div for picture and text*/
+.main-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+/*editing image */
+#sony-angel {
+    height: 150px;
+    width: 150px;
+}
+
+/*editing text */
+#sometext {
+    text-align: center;
+    width: 400px;
+
+}

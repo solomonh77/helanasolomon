@@ -1,0 +1,59 @@
+/* all of these css styles are for the main icons and text*/
+#camera-img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: -20px;
+}
+
+#headphones-img {
+    height: 150px;
+    width: 150 px;
+    margin-bottom: -20px;
+}
+
+#miffy-img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: -20px;
+}
+
+#stars-img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: -20px;
+
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+
+
+.icon:hover img {
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
